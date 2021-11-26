@@ -16,7 +16,7 @@ namespace Lab11
             Path = path;
         }
 
-        public string Parse() 
+        public virtual string Parse() 
         {
             text = reader.Read(Path);
             //Делаем то за что отвечает парсер и формируем результат

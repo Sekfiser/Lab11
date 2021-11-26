@@ -16,7 +16,13 @@ namespace Lab11
         string[] TriTables;
         public ExtendedParser(IReader _reader, string path) : base(_reader, path)
         {
-            Parse(); //преобразуем текст для дальнейших операций и получения значений поля Text
+            Parse();
+        }
+
+        public override string Parse()
+        {
+            //Какя-то измененная логика от базового парсера
+            return base.Parse();
         }
 
         public string[] GetLexTable() 

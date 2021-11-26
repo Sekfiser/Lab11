@@ -8,6 +8,7 @@ namespace Lab11
         {
             var runner = new Runner();
             runner.RunTaskOne();
+            runner.RunTaskTwo();
         }
     }
 
